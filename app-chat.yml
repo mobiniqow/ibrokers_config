@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: dbc:postgresql://localhost:5432/appchat
+    url: jdbc:postgresql://localhost:5432/appchat
     username: postgres
     password: postgres
     initialize: true
