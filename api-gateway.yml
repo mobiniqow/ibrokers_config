@@ -18,8 +18,9 @@ spring:
                     enabled: true
                 lowerCaseServiceId: true
             routes:
-            - id: app-chat
-              uri: http://localhost:8001/
-              predicated: path=/app-chat/**
+                - id: app-chat
+                  uri: http://localhost:8001/
+                  predicates:
+                      - path=/app-chat/**
     main:
         web-application-type: reactive
