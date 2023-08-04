@@ -16,6 +16,10 @@ spring:
                   uri: http://baeldung.com
                   predicates:
                       - Path=/baeldung/
+                - id: app_chat
+                  uri: http:localhost:8001
+                  predicates:
+                      - Path=/app_chat/
     main:
         web-application-type: reactive
 management:
