@@ -21,6 +21,6 @@ spring:
                 - id: app-chat
                   uri: http://localhost:8001/
                   predicates:
-                      - path=/app-chat/**
+                  - Method=GET,POST
     main:
         web-application-type: reactive
