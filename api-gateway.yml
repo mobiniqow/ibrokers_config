@@ -11,11 +11,11 @@ spring:
             discovery:
                 locator:
                     enabled: true
-            routes:
-                - id: baeldung_route
-                  uri: http://baeldung.com
-                  predicates:
-                      - Path=/baeldung/
+#            routes:
+#                - id: baeldung_route
+#                  uri: http://baeldung.com
+#                  predicates:
+#                      - Path=/baeldung/
     main:
         web-application-type: reactive
 #management:
