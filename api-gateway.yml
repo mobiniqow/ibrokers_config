@@ -16,4 +16,4 @@ spring:
             discovery:
                 locator:
                     enabled: true
-        main-application-type: reactive
+    main-application-type: reactive
