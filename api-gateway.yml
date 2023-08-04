@@ -16,5 +16,6 @@ spring:
             discovery:
                 locator:
                     enabled: true
+                lowerCaseServiceId: true
     main:
         web-application-type: reactive
