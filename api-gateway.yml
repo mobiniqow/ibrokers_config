@@ -19,7 +19,7 @@ spring:
                 lowerCaseServiceId: true
             routes:
                 - id: app-chat
-                  uri: http://google.com/
+                  uri: http://localhost:8001/
                   predicates:
                       - Path=/app-chat/**
                 - id: banner
