@@ -1,0 +1,3 @@
+server:
+    name: api-gateway
+    port: 3221
