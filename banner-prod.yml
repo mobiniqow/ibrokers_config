@@ -1,9 +1,9 @@
 spring:
     datasource:
         initialize: true
-        password: postgres
-        url: jdbc:postgresql://localhost:5432/banner
-        username: postgres
+        password: qwejor#@asd32453hqjwejrfhkjqw
+        url: jdbc:postgresql://plannewsbanner_db:5432/banner
+        username: njasdqwe
     jpa:
         hibernate:
             ddl-auto: update
