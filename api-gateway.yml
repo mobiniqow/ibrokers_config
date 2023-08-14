@@ -1,7 +1,5 @@
 eureka:
   client:
-    fetchRegistry: false
-    registerWithEureka: true
     service-url:
       default-zone: https://servicediscovery.ibrokers.ir/
 management:
