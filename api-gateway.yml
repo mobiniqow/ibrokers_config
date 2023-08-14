@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      default-zone: https://eureka:8761.ir/
+      default-zone: https://eureka:8761/
 management:
   endpoints:
     web:
