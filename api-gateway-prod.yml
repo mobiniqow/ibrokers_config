@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      default-zone: https://servicediscovery.ibrokers.ir/
+      default-zone: ibrokers:8761
 management:
   endpoints:
     web:
