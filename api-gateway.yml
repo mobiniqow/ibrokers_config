@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      default-zone: http://localhost:8761/eureka
+      default-zone: https://servicediscovery.ibrokers.ir/
 management:
   endpoints:
     web:
@@ -17,42 +17,42 @@ spring:
         locator:
           enabled: true
         lowerCaseServiceId: true
-      routes:
-        - id: app-chat
-          # in production this name is host name for load balancing
-          uri: http://localhost:8001/
-          predicates:
-            - Path=/app-chat/**
-        - id: banner
-          uri: http://localhost:8002/
-          predicates:
-            - Path=/banner/**
-
-        - id: bourse
-          uri: http://localhost:8003/
-          predicates:
-            - Path=/bourse/**
-
-        - id: security
-          uri: http://localhost:8004/
-          predicates:
-            - Path=/security/**
-
-        - id: favorite
-          uri: http://localhost:8008/
-          predicates:
-            - Path=/favorite/**
-
-        - id: news
-          uri: http://localhost:8010/
-          predicates:
-            - Path=/news/**
-
-
-        - id: plan
-          uri: http://localhost:8011/
-          predicates:
-            - Path=/plan/**
+#      routes:
+#        - id: app-chat
+#          # in production this name is host name for load balancing
+#          uri: http://localhost:8001/
+#          predicates:
+#            - Path=/app-chat/**
+#        - id: banner
+#          uri: http://localhost:8002/
+#          predicates:
+#            - Path=/banner/**
+#
+#        - id: bourse
+#          uri: http://localhost:8003/
+#          predicates:
+#            - Path=/bourse/**
+#
+#        - id: security
+#          uri: http://localhost:8004/
+#          predicates:
+#            - Path=/security/**
+#
+#        - id: favorite
+#          uri: http://localhost:8008/
+#          predicates:
+#            - Path=/favorite/**
+#
+#        - id: news
+#          uri: http://localhost:8010/
+#          predicates:
+#            - Path=/news/**
+#
+#
+#        - id: plan
+#          uri: http://localhost:8011/
+#          predicates:
+#            - Path=/plan/**
 
   main:
     web-application-type: reactive
