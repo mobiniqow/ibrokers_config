@@ -9,7 +9,7 @@ management:
         include: '*'
 server:
   name: api-gateway
-  port: 3222
+  port: 3221
 spring:
   cloud:
     gateway:
