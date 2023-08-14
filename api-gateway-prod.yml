@@ -1,3 +1,22 @@
+eureka:
+    client:
+        service-url:
+            default-zone: https://servicediscovery.ibrokers.ir/
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'
 server:
     name: api-gateway
     port: 3221
+spring:
+    cloud:
+        gateway:
+            discovery:
+                locator:
+                    enabled: true
+                lowerCaseServiceId: true
+
+    main:
+        web-application-type: reactive
