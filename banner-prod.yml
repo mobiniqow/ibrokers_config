@@ -13,3 +13,7 @@ spring:
                 dialect: org.hibernate.dialect.PostgreSQLDialect
 server:
     port: 8002
+eureka:
+    client:
+        service-url:
+            defaultZone: https://servicediscovery.ibrokers.ir/eureka/
