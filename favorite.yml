@@ -8,7 +8,7 @@ spring:
     datasource:
         initialize: true
         password: postgres
-        url: jdbc:postgresql://localhost:5432/favorite
+        url: jdbc:postgresql://localhost:5432/appchat
         username: postgres
     jpa:
         hibernate:
