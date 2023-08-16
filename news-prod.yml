@@ -3,9 +3,9 @@ server:
 spring:
     datasource:
         initialize: true
-        password: postgres
-        url: jdbc:postgresql://localhost:5432/news
-        username: postgres
+        password: qwejor#@asd32453hqjwejrfhkjqw
+        url: jdbc:postgresql://plannewsbanner_db/news
+        username: njasdqwe
     jpa:
         hibernate:
             ddl-auto: update
@@ -13,3 +13,7 @@ spring:
         properties:
             hibernate:
                 dialect: org.hibernate.dialect.PostgreSQLDialect
+eureka:
+    client:
+        service-url:
+            defaultZone: https://servicediscovery.ibrokers.ir/eureka/
