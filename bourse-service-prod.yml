@@ -2,7 +2,7 @@ spring:
     datasource:
         initialize: true
         password: qwejor#@asd32453hqewqjwejrfhkjqw
-        url: jdbc:postgresql://bourse_db/
+        url: jdbc:postgresql://bourse_db/bourse
         username: nja32sdqwe
     jpa:
         hibernate:
