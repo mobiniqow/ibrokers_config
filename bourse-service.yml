@@ -11,16 +11,16 @@ spring:
         url: jdbc:postgresql://localhost:5432/ibrokers_bourse
         username: postgres
     jpa:
+        show-sql: true
         hibernate:
             ddl-auto: update
-            show-sql: true
         properties:
             hibernate:
                 dialect: org.hibernate.dialect.PostgreSQLDialect
                 # show sql
+                format_sql: true
                 shoe_sql: true
                 use_sql_comments: true
-                format_sql: true
 logging:
     level:
         org.hibernate.SQL: DEBUG
