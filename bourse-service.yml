@@ -7,9 +7,9 @@ server:
 spring:
     datasource:
         initialize: true
-        password: postgres
-        url: jdbc:postgresql://localhost:5432/ibrokers_bourse
-        username: postgres
+        password: qwejor#@asd32453hqewqjwejrfhkjqw
+        url: jdbc:postgresql://localhost:5433/bourse
+        username: nja32sdqwe
     jpa:
         show-sql: true
         hibernate:
