@@ -11,17 +11,8 @@ spring:
         url: jdbc:postgresql://localhost:5433/bourse
         username: nja32sdqwe
     jpa:
-        show-sql: true
         hibernate:
             ddl-auto: update
         properties:
             hibernate:
                 dialect: org.hibernate.dialect.PostgreSQLDialect
-                # show sql
-                format_sql: true
-                shoe_sql: true
-                use_sql_comments: true
-logging:
-    level:
-        org.hibernate.SQL: DEBUG
-        org.hibernate.type: TRACE
